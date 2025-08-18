@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="static/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
     <header class="header">
@@ -27,7 +29,7 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Olá, eu sou o <span class="highlight">João Pereira</span><img src="static/img/fone.png" alt="" style="margin-left: 10px; width: 80px; transform: rotate(25deg);"></h1>
+                <h1 class="hero-title">Olá, eu sou o <span class="highlight">João Pereira</span><img src="static/img/fone.png" alt="" style="margin-left: 10px; width: 80px;"></h1>
                 <p class="hero-subtitle">Desenvolvedor Full Stack</p>
                 <div class="hero-buttons">
                     <a href="#about" class="btn btn-primary">Conheça mais</a>
@@ -81,60 +83,61 @@
         </div>
     </section>
     <section id="courses" class="courses">
-        <h2 class="section-title">Cursos Livres</h2>
-        <div class="courses-grid">
-            <div class="course-card">
-                <div class="course-header">
-                    <img src="static/img/alfa.png" alt="Alura" class="course-logo">
-                    <h3 class="course-title">Informática Avançada</h3>
-                </div>
-                <div class="course-details">
-                    <p class="course-institution">Alfa Informática e Idiomas</p>
-                    <p class="course-duration">2020 - 2021 • 120 horas</p>
-                </div>
+    <h2 class="section-title">Cursos Livres</h2>
+    <div class="courses-grid">
+        <div class="course-card">
+            <div class="course-header">
+                <i class="fa-solid fa-computer course-icon"></i>
+                <h3 class="course-title">Informática Avançada</h3>
             </div>
-            <div class="course-card">
-                <div class="course-header">
-                    <img src="static/img/workover.png" alt="Udemy" class="course-logo">
-                    <h3 class="course-title">Spring Boot e React</h3>
-                </div>
-                <div class="course-details">
-                    <p class="course-institution">Workover</p>
-                    <p class="course-duration">2024 • 5 horas</p>
-                </div>
-            </div>
-            <div class="course-card">
-                <div class="course-header">
-                    <img src="static/img/hashtag.png" alt="Coursera" class="course-logo">
-                    <h3 class="course-title">Intensivão javascript</h3>
-                </div>
-                <div class="course-details">
-                    <p class="course-institution">Hashtag Programação</p>
-                    <p class="course-duration">2023 • 5 horas</p>
-                </div>
-            </div>
-            <div class="course-card">
-                <div class="course-header">
-                    <img src="static/img/bradesco.png" alt="Coursera" class="course-logo">
-                    <h3 class="course-title">Introdução à Análise de Dados</h3>
-                </div>
-                <div class="course-details">
-                    <p class="course-institution">Fundação Bradesco</p>
-                    <p class="course-duration">2023 • 60 horas</p>
-                </div>
-            </div>
-            <div class="course-card">
-                <div class="course-header">
-                    <img src="static/img/fisk.png" alt="Coursera" class="course-logo">
-                    <h3 class="course-title">Inglês - Essentials II</h3>
-                </div>
-                <div class="course-details">
-                    <p class="course-institution">Fisk</p>
-                    <p class="course-duration">2018 - 2019 • 92 horas</p>
-                </div>
+            <div class="course-details">
+                <p class="course-institution">Alfa Informática e Idiomas</p>
+                <p class="course-duration">2020 - 2021 • 120 horas</p>
             </div>
         </div>
-    </section>
+        <div class="course-card">
+            <div class="course-header">
+                <i class="fa-brands fa-java course-icon"></i>
+                <h3 class="course-title">Spring Boot e React</h3>
+            </div>
+            <div class="course-details">
+                <p class="course-institution">Workover</p>
+                <p class="course-duration">2024 • 5 horas</p>
+            </div>
+        </div>
+        <div class="course-card">
+            <div class="course-header">
+                <i class="fa-brands fa-js course-icon"></i>
+                <h3 class="course-title">Intensivão JavaScript</h3>
+            </div>
+            <div class="course-details">
+                <p class="course-institution">Hashtag Programação</p>
+                <p class="course-duration">2023 • 5 horas</p>
+            </div>
+        </div>
+        <div class="course-card">
+            <div class="course-header">
+                <i class="fa-solid fa-chart-line course-icon"></i>
+                <h3 class="course-title">Introdução à Análise de Dados</h3>
+            </div>
+            <div class="course-details">
+                <p class="course-institution">Fundação Bradesco</p>
+                <p class="course-duration">2023 • 60 horas</p>
+            </div>
+        </div>
+        <div class="course-card">
+            <div class="course-header">
+                <i class="fa-solid fa-language course-icon"></i>
+                <h3 class="course-title">Inglês - Essentials II</h3>
+            </div>
+            <div class="course-details">
+                <p class="course-institution">Fisk</p>
+                <p class="course-duration">2018 - 2019 • 92 horas</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <footer class="footer" id="footer">
     <div class="container">
         <div class="footer-content">
@@ -152,15 +155,6 @@
                         <i class="fab fa-github"></i> GitHub
                     </a>
                 </div>
-            </div>
-            <div class="footer-links">
-                <h4>Links Rápidos</h4>
-                <ul>
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="templates/projetos.html">Projetos</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
             </div>
         </div>
             <p>&copy; 2025 João Pereira. Todos os direitos reservados.</p>

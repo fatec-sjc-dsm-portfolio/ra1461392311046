@@ -30,7 +30,6 @@ body {
     background-color: rgba(10, 10, 10, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
-    border-bottom: 1px solid #333333;
 }
 
 .nav-container {
@@ -44,7 +43,7 @@ body {
 }
 
 .logo h2 {
-    color: #00d4ff;
+    color: #ffffff;
     font-weight: 600;
     font-size: 1.5rem;
 }
@@ -65,7 +64,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #00d4ff;
+    color: #F0C85F;
 }
 
 .nav-link::after {
@@ -75,7 +74,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #00d4ff;
+    background-color: #F0C85F;
     transition: width 0.3s ease;
 }
 
@@ -92,17 +91,6 @@ body {
     position: relative;
 }
 
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at 20% 80%, rgba(0, 212, 255, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(0, 212, 255, 0.05) 0%, transparent 50%);
-}
-
 .hero-content {
     position: relative;
     z-index: 2;
@@ -116,8 +104,8 @@ body {
 }
 
 .highlight {
-    color: #00d4ff;
-    background: linear-gradient(45deg, #00d4ff, #0099cc);
+    color: #F0C85F;
+    background: linear-gradient(45deg, #F0C85F, #f0c75fbb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -156,27 +144,27 @@ body {
 }
 
 .btn-primary {
-    background-color: #00d4ff;
+    background-color: #F0C85F;
     color: #0a0a0a;
 }
 
 .btn-primary:hover {
-    background-color: #0099cc;
+    background-color: #F0C85F;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(0, 212, 255, 0.3);
+    box-shadow: 0 10px 25px rgba(255, 230, 0, 0.3);
 }
 
 .btn-secondary {
     background-color: transparent;
-    color: #00d4ff;
-    border-color: #00d4ff;
+    color: #F0C85F;
+    border-color: #F0C85F;
 }
 
 .btn-secondary:hover {
-    background-color: #00d4ff;
+    background-color: #F0C85F;
     color: #0a0a0a;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(0, 212, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(255, 225, 0, 0.2);
 }
 
 .about,
@@ -264,7 +252,7 @@ body {
 
 .skill-progress {
     height: 100%;
-    background: linear-gradient(90deg, #00d4ff, #0099cc);
+    background: linear-gradient(90deg, #F0C85F, #0099cc);
     border-radius: 4px;
     transition: width 0.3s ease;
 }
@@ -304,11 +292,11 @@ body {
 
 .contact-item:hover {
     transform: translateY(-5px);
-    border-color: #00d4ff;
+    border-color: #F0C85F;
 }
 
 .contact-item h4 {
-    color: #00d4ff;
+    color: #F0C85F;
     margin-bottom: 1rem;
     font-size: 1.2rem;
 }
@@ -320,7 +308,7 @@ body {
 }
 
 .contact-item a:hover {
-    color: #00d4ff;
+    color: #F0C85F;
 }
 
 .projects-grid {
@@ -346,8 +334,8 @@ body {
     border-radius: 100%;
     object-fit: cover;
     margin-bottom: 20px;
-    border: 3px solid #00d4ff;
-    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+    border: 3px solid #F0C85F;
+    box-shadow: 0 10px 30px rgba(255, 238, 0, 0.2);
     float: left;
     margin-right: 30px;
     shape-outside: margin-box;
@@ -363,8 +351,8 @@ body {
 
 .project-card:hover {
     transform: translateY(-10px);
-    border-color: #00d4ff;
-    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.1);
+    border-color: #F0C85F;
+    box-shadow: 0 20px 40px rgba(255, 204, 0, 0.1);
 }
 
 .project-image {
@@ -378,7 +366,7 @@ body {
 }
 
 .project-placeholder {
-    color: #00d4ff;
+    color: #F0C85F;
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
@@ -409,12 +397,12 @@ body {
 }
 
 .tech-tag {
-    background-color: rgba(0, 212, 255, 0.1);
-    color: #00d4ff;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #F0C85F;
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     font-size: 0.85rem;
-    border: 1px solid rgba(0, 212, 255, 0.3);
+    border: 1px solid rgba(255, 251, 0, 0.3);
 }
 
 .project-links {
@@ -423,7 +411,7 @@ body {
 }
 
 .project-link {
-    color: #00d4ff;
+    color: #F0C85F;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -441,7 +429,7 @@ body {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: #00d4ff;
+    background-color: #F0C85F;
     transition: width 0.3s ease;
 }
 
@@ -587,17 +575,20 @@ body {
 
 .course-card:hover {
     transform: translateY(-5px);
-    border-color: #00d4ff;
-    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.1);
+    border-color: #F0C85F;
+    box-shadow: 0 10px 30px rgba(255, 217, 0, 0.1);
+}
+
+.course-icon {
+    font-size: 2rem;
+    color: #F0C85F;
+    margin-right: 10px;
 }
 
 .course-header {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid #333333;
-    padding-bottom: 1rem;
+    gap: 10px;
 }
 
 .course-logo {
@@ -623,7 +614,7 @@ body {
 }
 
 .course-duration {
-    color: #00d4ff;
+    color: #F0C85F;
     font-size: 0.85rem;
     margin-bottom: 1rem;
     font-weight: 500;
@@ -644,14 +635,14 @@ body {
 
 .course-topics li::before {
     content: "•";
-    color: #00d4ff;
+    color: #F0C85F;
     position: absolute;
     left: 0;
 }
 
 .course-certificate {
     display: inline-block;
-    color: #00d4ff;
+    color: #F0C85F;
     text-decoration: none;
     font-weight: 500;
     font-size: 0.9rem;
@@ -668,7 +659,7 @@ body {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: #00d4ff;
+    background-color: #F0C85F;
     transition: width 0.3s ease;
 }
 
@@ -692,7 +683,7 @@ body {
 }
 
 .footer-brand h3 {
-    color: #00d4ff;
+    color: #ffffff;
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -707,7 +698,7 @@ body {
     font-size: 1.1rem;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #00d4ff;
+    border-bottom: 2px solid #F0C85F;
     display: inline-block;
 }
 
@@ -720,7 +711,7 @@ body {
 }
 
 .social-links a:hover {
-    color: #00d4ff;
+    color: #F0C85F;
 }
 
 .social-links i {
@@ -745,7 +736,7 @@ body {
 }
 
 .footer-links a:hover {
-    color: #00d4ff;
+    color: #F0C85F;
 }
 
 .footer-bottom {
@@ -892,6 +883,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #00d4ff;
+    background: #F0C85F;
 }
 
